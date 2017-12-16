@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello world</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="content.css">
+  </head>
+
+  <body>
+</div>
+    <nav class="navbar navbar-inverse moj-navbar" style="background-color: #1C2B36 !important ;margin-bottom:0px; border-radius:0;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" style="color:#F8F8FF;" href="#">HomeAPP</a>
+        </div>
+
+        <ul class="nav navbar-nav pull-right">
+          <li>
+            <div class="avatar"><img src="man.png"></div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <nav class="navbar navbar-inverse sidebar" role="navigation" style="background-color:#666; border-color; border-radius:0;">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuarios <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-user"></span></a>
+          <ul class="dropdown-menu forAnimate" role="menu">
+            <li><a href="{{URL::to('createusuario')}}">Crear</a></li>
+            <li><a href="#">Modificar</a></li>
+            <li><a href="#">Reportar</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Informes</a></li>
+          </ul>
+        </li>
+        <li ><a href="#">Libros<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a></li>
+        <li ><a href="#">Tags<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-tags"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" style="margin:50px; margin-left: 80px;">
+
+<div class="row" style="height:300px">
+  <div class="col-6 col-sm-4">
+    <div class="card">
+        <img src="man.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Zdenko zdenic</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+  </div>
+</div>
+  <div class="col-6 col-sm-4">
+    <div class="card">
+        <img src="man.png" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Mišo Kovac</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6 col-sm-6">
+    <div class="card-long">
+
+        <div class="container">
+          <h4><b>Boki Bokislav</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+  </div>
+
+</div>
+
+
+
+
+</div>
+
+
+  </body>
+</html>
